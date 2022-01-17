@@ -1,0 +1,40 @@
+.nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icone {
+    color: #1D67A9;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Sen', sans-serif;
+}
+.icone:hover {
+    color: #464646;
+    text-decoration: none;
+}
+.liennav {
+    outline: none;
+    padding: 15px 15px;
+    color: #1D67A9;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.liennav:hover {
+    color: #464646;
+    text-decoration: none;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.logoicone {
+    display: flex;
+    align-items: flex-end;
+}
+@media (max-width: 400px){
+    .icone {
+        display: none;
+    }
+}
