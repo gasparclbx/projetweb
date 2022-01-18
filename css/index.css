@@ -1,3 +1,63 @@
+.contenant {
+    position: relative;
+    text-align: left;
+    color: #1D67A9;
+    
+}
 body {
     background-color: #EDF4F4;
+}
+.button1 {
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-radius: 2px;
+    margin: 10px;
+    
+}
+.button1:hover {
+    text-decoration: none;
+    color: #1d67a9;
+    transition: 0.2s;
+    border: 3px solid #1d67a9;
+}
+.texte_centrer {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-family: 'Pattaya', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 278px;
+    display: flex;
+    align-items: left;
+}
+
+.house {
+    display: flex;
+    position: relative;
+    width: 100%;
+
+}
+
+.punchlines {
+    font-family: 'PT Serif Caption', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 278px;
+    display: flex;
+    align-items: left;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    
+
 }
