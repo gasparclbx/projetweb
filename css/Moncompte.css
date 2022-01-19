@@ -1,0 +1,83 @@
+.bouton {
+    padding: 5px 5px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid #1d67a9;
+    color: #1d67a9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-radius: 2px;
+    margin: 10px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.bouton:hover {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    border: 3px solid black;
+}
+
+.Formulaire{
+    margin: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.Nom
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.Prenom
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.Adresse-email
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.Mdp
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.boutonfin
+{
+    display: flex;
+    flex-direction: row;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.formulaire
+{
+    margin-top: 15px;
+}
+
+body
+{
+    background-color: #c4c4c4;
+}
+
+.boutonfin
+{
+    justify-content: space-around;
+}
+
+legend
+{
+    text-align: center;
+}
