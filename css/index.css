@@ -16,6 +16,10 @@ body {
     font-weight: bold;
     border-radius: 2px;
     margin: 10px;
+    position: absolute;
+    top: 60%;
+    left: 3%;
+
     
 }
 .button1:hover {
@@ -42,7 +46,7 @@ body {
     display: flex;
     position: relative;
     width: 100%;
-
+    
 }
 
 .punchlines {
@@ -60,4 +64,63 @@ body {
     color: #FFFFFF;
     
 
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 5%;
+    margin-top: -1%;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+  
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+  
+
+.flip-card-front {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+  
+
+.flip-card-back {
+    background-color: #1d67a9;
+    color: orange;
+    transform: rotateY(180deg);
+    font-family: 'PT Serif Caption', serif;
+}
+
+.fa {
+
+    color: #1d67a9;
 }
