@@ -155,9 +155,94 @@ body {
 .textequipe {
     text-align: center;
     position: relative; 
-    top:160px;
+    top:130px;
     color: #343435 ;
-    left: 75px;
+    left: 80px;
     font-family: 'Poppins', sans-serif;
     padding: 0 20px;
+    font-size: 35px;
 }
+
+@media (max-width:480px){
+    .texte_centrer {
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-family: 'Pattaya', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 100px;
+        display: flex;
+        align-items: left;
+    }
+    .punchlines {
+        font-family: 'PT Serif Caption', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 40px;
+        display: flex;
+        align-items: left;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        color: #FFFFFF;
+        
+    
+    }
+
+    .button1 {
+        padding: 5px 10px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 3px solid white;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        border-radius: 2px;
+        margin: 10px;
+        position: absolute;
+        top: 60%;
+        left: 3%;
+    
+        
+    }
+    .button1:hover {
+        text-decoration: none;
+        color: #1d67a9;
+        transition: 0.2s;
+        border: 3px solid #1d67a9;
+    }
+
+    .photo {
+        
+        width: 350px;
+        height: 250px;
+        position: relative;
+        left: 15%;
+        margin-top: 30px;
+    }
+
+    .textequipe {
+        text-align: center;
+        position: relative; 
+        top:10px;
+        right: 40px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        text-align: left;
+    }
+
+    #rectangle {
+
+        background-color: white;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+}   
