@@ -22,7 +22,7 @@
         <title>Mon Appareil</title>
     </head>
     <body>
-
+        <!-- Ces commentaires sont les mêmes pour tele/lampe/aspirateur.html, veuillez rester sur cette page pour la description -->
         <nav class="nav">
             <div class="logoicone">
                 <a href="../index.html"><img class="logo" src="../images/logo.jpg" alt="logo"></a>
@@ -33,21 +33,21 @@
                 <a class="liennav" href="inscription.html">Inscription</a>
             </div>
         </nav>
-
-        <div class="basics">
-            <div class="cardperso">
+        <!--  Création de la card de l'appareil  -->
+        <div class="basics">   <!-- Regroupement dans un container -->
+            <div class="cardperso"> <!-- Création de la card -->
                 <img class="img-card" src="../images/televiseur.jpeg" alt="">
-                <div class="cardappareil">
+                <div class="cardappareil"> <!-- Contenance de l'appareil-->
                     <h2 class="titlecard">Télé salon</h2>
                     <p>Télé salon, appareil éteint.</p>
                     <p>Consommation kW/h moyenne: 27, prix moyen: 0.02ct/kW, Hebdomadaire: 1245kW.</p>
-                    <div class="cardcheck">
+                    <div class="cardcheck"> <!-- Petits symboles valider ou annuler-->
                         <a href="mes_appareils.html"><i class="fa fa-check-circle fa-2x check"></i></a>
                        <a href="mes_appareils.html"><i class="fa fa-ban fa-2x cancel"></i></a>
                     </div>
                 </div>
             </div>
-
+            <!-- Intégration de petites jauges à manipuler /// En développement pour le S2-->
             <div class="ranging">
                 <label for="volume">Volume</label>
                 <input type="range" id="volume" min="0" max="100">
