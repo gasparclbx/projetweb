@@ -7,11 +7,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 .cardperso {
     display: flex;
+    position: relative;
     width: 150vh;
-    height: auto;
     background-color: white;
     margin: 5%;
     border-radius: 5px;
@@ -23,7 +24,8 @@
     transform: scale(1.01);
 }
 .img-card {
-    width: 100vh;
+    width: 70%;
+    height: auto;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -41,11 +43,11 @@
 }
 
 .fa {
-    color: rgb(143, 143, 143);
+    color: #1D679A;
 }
 .fa-check-circle:hover {
     transition: 0.2s;
-    color: #1D679A;
+    color: #00c921;
 }
 .fa-ban:hover {
     transition: 0.2s;
@@ -85,4 +87,22 @@ label {
     font-size: 25px;
     font-weight: 300;
     margin: 0 20px;
+}
+@media (max-width: 480px) {
+    .titlecard {
+        font-size: 20px;
+    }
+    .cardappareil {
+        font-size: 10px;
+        margin: auto;
+        padding: 10px 0 0 10px;
+    }
+    .cardperso {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .ranging {
+        margin-top: 40px;
+    }
 }
