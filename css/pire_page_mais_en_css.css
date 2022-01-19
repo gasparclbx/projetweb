@@ -1,0 +1,74 @@
+.cardgroup {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin: 4% 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.cardy {
+    display: flex;
+    position: relative;
+    width: 75vh;
+    background-color: white;
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow:-1px 5px 10px 0px black;
+    transition: ease-in-out 0.3s;
+}
+.cardy:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+}
+.img {
+    width: 70%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.content {
+    padding: 10px 0 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.check {
+    display: none;
+}
+.cardy:hover .check {
+    transition: 1s;
+    transform: scale(1.4);
+    display: block;
+}
+.cardy:hover {
+    transition: 1s;
+    transform: translateX(800px) scale(1.4);
+}
+@media (max-width: 480px) {
+    .titlecard {
+        font-size: 20px;
+    }
+    .content {
+        font-size: 10px;
+        margin: auto;
+        padding: 10px 0 0 10px;
+    }
+    .cardy {
+        width: 80%;
+        height: auto;
+
+    }
+    .cardy:hover {
+        transform: none;
+    }
+    .cardy:hover .check {
+        transform: translateX(20px);
+    }
+}
